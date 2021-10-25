@@ -12,7 +12,7 @@ class ProviderApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Provider Training App",
+      title: "GetX training",
       home: HomeApp(),
       theme: ThemeData(
         primaryColor: Colors.deepPurple[700],
@@ -30,7 +30,7 @@ class HomeApp extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).primaryColor,
-        title: const Text("Todo with Provider 6.0"),
+        title: const Text("Todo with Getx"),
       ),
       body: Body(),
       drawer: Drawer(
